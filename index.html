@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loft House</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="header_top-row">
+            <a href="#!">
+              <img src="./img/logo.svg" alt="Loft House" />
+            </a>
+            <div class="header_nav">
+              <nav class="nav">
+                <ul class="nav_list">
+                  <li><a href="#!">About</a></li>
+                  <li><a href="#!">Neighborhood</a></li>
+                  <li><a href="#!">See more apartments</a></li>
+                  <li><a href="#!">Mortgage</a></li>
+                  <li><a href="#!">Contact us</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__nav-btn">
+                <button class="nav-icon-btn">
+                    <div class="nav-icon"></div>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+          <h1 class="header-title">
+            Residential complex <br />
+            in historic central district
+            <a href="#benefits">
+                <img src="./img/header/mouse.svg" alt="Scroll to next segment" class="header_title-icon">
+            </a>
+          </h1>
+        </div>
+      <div class="header_footer">
+        <div class="text-right">
+            <a href="#!" class="info info--map">111 Main Street</a>
+        </div>
+            <a href="tel:+1(888)-888-88-88" class="info info--tel">(888)-888-88-88</a>
+      </div>
+    </header>
+    <main>
+        <section class="benefits">
+            <h2 class="visually-hidden">Benefits of the building complex</h2>
+            <div class="container container--sm">
+                <div class="benefits__row">
+                    <div class="benefits__item">
+                        <img src="./img/benefits/bench.svg" alt="Bench" class="benefits__item-img">
+                        <p class="benefits__item-text">Historic sites and&nbsp;parks nearby</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="./img/benefits/building.svg" alt="Building" class="benefits__item-img">
+                        <p class="benefits__item-text">Developed infrastructure</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="./img/benefits/fountain.svg" alt="Fountain" class="benefits__item-img">
+                        <p class="benefits__item-text">10 fountains on premises</p>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="./img/benefits/bicycle.svg" alt="Bicycle" class="benefits__item-img">
+                        <p class="benefits__item-text">Bicycle lanes</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="apartments">
+            <div class="container">
+                <div class="apartments__title">
+                    <h2 class="title-2">Our apartments</h2>
+                </div>
+                <div class="apartments__cards">
+                    <a href="#!" class="card">
+                        <img src="./img/apartments/01.jpg" alt="Olymp" class="card__img"><h3 class="card__title">Penthouse "Loft Olymp"</h3>
+                    </a>
+
+                    <a href="#!" class="card">
+                        <img src="./img/apartments/02.jpg" alt="Nice Loft" class="card__img">
+                        <h3 class="card__title">Apartment "Nice Loft"</h3>
+
+                    </a>
+
+                    <a href="#!" class="card">
+                        <img src="./img/apartments/03.jpg" alt="Loft Studio" class="card__img">
+                        <h3 class="card__title">Apartment "Loft Studio"</h3>
+
+                    </a>
+
+                    <a href="#!" class="card">
+                        <img src="./img/apartments/04.jpg" alt="Prestige" class="card__img">
+                        <h3 class="card__title">Loft "Loft Prestige"</h3>
+
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container">
+                <div class="cta__title">
+                    <h2 class="title-2">Request a tour</h2>
+                </div>
+                <div class="cta__wrapper">
+                    <div class="cta__text">
+                        <p>LoftHouse is a business class project, located in the center of the city. The complex offers apartments ranfing from 40 square meters to 170 square meters. There are 3 sections with a total number of 56 apartments.</p>
+                    </div>
+                        <form action="" class="cta__form form">
+                            <input type="text" class="form__input" placeholder="Your name">
+                            <input type="text" class="form__input" placeholder="Your phone number">
+                            <p class="form__privacy">We are not sharing this data with anyone</p>
+
+                            <button type="submit" class="form__btn">Explore the neighborhood</button>
+
+                        </form>
+                </div>
+
+            </div>
+        </section>
+        <section class="video">
+            <h2 class="visually-hidden">Video about Loft House</h2>
+            <div class="container">
+                <a href="#!" data-youtubeLightbox class="video__link">
+                    <img src="./img/video/play.svg" alt="" class="video__icon">
+                    <img src="./img/video/video-img.jpg" alt="" class="video__img">
+                </a>
+            </div>
+        </section>
+        <section class="section-map">
+            <div class="container">
+                <div class="section-map__title">
+                    <h2 class="title-2">Find us on Google Maps</h2>
+                </div>
+                <div class="section-map__map">
+                    <div class="map" id="map"></div>
+                </div>
+
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback__title">
+                    <h2 class="title-2">Questions?</h2>
+                </div>
+                <form class="feedback__form form">
+
+                    <p class="form__privacy form__privacy--bottom">
+                        *We do not share your data with anyone.
+                    </p>
+
+                    <input type="text" class="form__input" placeholder="Your name">
+                    <input data-tel-input type="text" class="form__input" placeholder="Your phone number">
+
+                    <button type="submit" class="form__btn">Explore the neighborhood</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__logo">
+                    <a href="#!">
+                        <img src="./img/logo.svg" alt="LoftHouse">
+                    </a>
+                </div>
+                <div class="footer__nav">
+                    <nav>
+                        <ul class="footer__nav-list">
+                            <li><a href="#!">About us</a></li>
+                            <li><a href="#!">Neighborhood</a></li>
+                            <li><a href="#!">Apartments</a></li>
+                            <li><a href="#!">Mortgage</a></li>
+                            <li><a href="#!">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__nav">
+                     <nav>
+                        <ul class="footer__nav-list">
+                            <li><a href="#!">Moving in</a></li>
+                            <li><a href="#!">Maintenance</a></li>
+                            <li><a href="#!">Ecosystem</a></li>
+                            <li><a href="#!">Investment opportunities</a></li>
+                            <li><a href="#!">Loyalty program</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__address">
+                    <ul class="footer__nav-list">
+                        <li>Address: 111 Main Street</li>
+                        <li>Phone: <a href="tel:+8888888888">8 (888) 888-88-88</a></li>
+                        <li>Hours: 10am - 20pm</li>
+                        <li>E-mail: <a class="link-bold" href="mailto:vip@lofthouse.com">vip@lofthouse.ru</a></li>
+                    </ul>
+                    <ul class="footer__socials">
+                        <li><a href="#!"><img src="./img/socials/youtube.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./img/socials/vk.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./img/socials/facebook.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./img/socials/instagram.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
